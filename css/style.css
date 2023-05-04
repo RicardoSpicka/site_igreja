@@ -64,7 +64,7 @@ nav{
   width: 100%;
   padding: 4rem;
   transition: all 0.4s ease;
-  border: 1px solid black;
+  box-shadow: 1rem 1rem 1rem rgba(10, 19, 31, 0.3);
   background: var(--background);
   z-index: 999;
 }
@@ -75,7 +75,6 @@ nav h1{
 
 nav.sticky{
   padding: 15px 80px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .logo-nome-nav{
@@ -92,7 +91,7 @@ nav.sticky{
 }
 
 .logo img{
-  box-shadow: 1rem 1rem 1rem rgba(10, 19, 31, 0.3) ;
+  box-shadow: 1rem 1rem 1rem rgba(10, 19, 31, 0.3);
 }
 
 .nome{
@@ -146,27 +145,32 @@ nav .nav-content{
 }
 
 .nav-content .nav-links li{
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1.8rem;
   list-style: none;
 }
 
- .nav-links li a{
+.nav-links li a{
   text-decoration: none;
-  color: var(--font-verde);
+  color:var(--font-fundo);;
   font-size: 2.5rem;
   font-weight: 500;
   transition: all 0.3s ease;
 }
+
+nav.sticky .nav-content{
+  justify-content: end;
+}
  .nav-links li a:hover{
-   color: var(--font-fundo);
+   color: var(--font-verde);
  }
- nav.sticky .nav-links li a{
-   color:  var(--font-fundo);
-   transition: all 0.4s ease;
+
+nav.sticky .nav-links li a{
+  color:  var(--font-verde);
+  transition: all 0.4s ease;
 }
- nav.sticky .nav-links li a:hover{
-  color: var(--font-verde);
-}
+  nav.sticky .nav-links li a:hover{
+    color: var(--font-fundo);
+  }
 
 /* SECTION (   meio da página) */
 .main{
@@ -200,8 +204,7 @@ nav .nav-content{
 
 .d-block{
   width: 100%;
-  height: 50rem;
+  height: 60rem;
   margin-top: 5rem;
   border-radius: 2rem;
-  box-shadow: 1rem 1rem 1rem rgba(10, 19, 31, 0.3) ;
 }

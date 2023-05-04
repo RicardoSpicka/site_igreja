@@ -1,0 +1,36 @@
+@media (max-width: 1800px)
+{
+  nav h1{
+    font-size: 4rem;
+  }
+
+  .nav-links li a{
+    font-size: 2rem;
+  }
+
+  .nav-content .nav-links li{
+    padding: 0.3rem 1.3rem;
+  }
+
+  .main{
+    padding-top: 17rem;
+  }
+
+  .ladoDireito img{
+    height: 55rem;
+  }
+
+  .ladoEsquerdo{
+    width: 65rem;
+    padding: 5rem 2rem;
+  }
+
+  .d-block{
+    height: 45rem;
+    margin-top: 1.2rem;
+  }
+
+
+
+
+}
